@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vazifa8/utils/app_constants.dart';
@@ -67,7 +68,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color.fromARGB(255, 247, 247, 248),
+          backgroundColor: Colors.amber,
         ),
       ),
       darkTheme: ThemeData.dark(),

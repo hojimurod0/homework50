@@ -210,7 +210,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       padding: const EdgeInsets.only(left: 95, right: 95),
                       child: TextField(
                         controller: fontSizeController,
-                     
+                        // obscureText: true,
                         keyboardType: TextInputType.phone,
                         onSubmitted: (value) {
                           if (double.tryParse(value) != null) {

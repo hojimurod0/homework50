@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:vazifa8/models/todo_models.dart';
 
@@ -5,18 +6,18 @@ class ToDoController with ChangeNotifier {
   final List<ToDo> _list = [
     ToDo(
         id: "1",
-        title: "fuutbol",
+        title: "Home work",
         description: "Home worklarni bajar",
         dates: DateTime(2024, 6, 15),
         isDone: true),
     ToDo(
         id: "2",
-        title: "club",
+        title: "GYM",
         description: "Zalga chiqish kerak",
         dates: DateTime(2024, 4, 15)),
     ToDo(
         id: "3",
-        title: "tennis",
+        title: "Coding",
         description: "Rivojlanish kerak",
         dates: DateTime.now(),
         isDone: true),
